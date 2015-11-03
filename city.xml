@@ -1,0 +1,66 @@
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="voicerec" label="Audio aufnehmen" icon="mic.png"/>
+            <button type="picture" label="Foto aufnehmen" icon="camera.png"/>
+            <button type="textnote" label="Textnotiz" icon="text.png"/>
+        </row>
+        <row>
+            <button type="page" label="Geschäfte" icon="icons/map-icon-grocery-or-supermarket_256_0_00ff33_none.png" targetlayout="shops"/>
+            <button type="page" label="Dinge" icon="icons/ion-location_256_0_00ff33_none.png" targetlayout="stuff"/>
+            <button type="page" label="Büros" icon="icons/icomoon-office_256_0_00ff33_none.png" targetlayout="office"/>
+        </row>
+    </layout>
+    <layout name="stuff">
+        <row>
+            <button type="page" label="zurück" icon="icons/ion-arrow-return-left_256_0_999999_none.png" targetlayout="root"/>
+            <button type="tag" label="Sitzbank" icon="icons/noun_37084_cc.png"/>
+            <button type="tag" label="Altkleider" icon="icons/ion-tshirt-outline_256_0_999999_none.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Mülleimer" icon="icons/noun_37084_cc.png"/>
+            <button type="tag" label="Geldautomat" icon="icons/map-icon-atm_256_0_999999_none.png"/>
+        </row>
+    </layout>
+    <layout name="shops">
+        <row>
+            <button type="page" label="zurück" icon="icons/ion-arrow-return-left_256_0_999999_none.png" targetlayout="root"/>
+            <button type="picture" label="Foto aufnehmen" icon="camera.png"/>
+            <button type="textnote" label="Textnotiz" icon="text.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Antiquitäten" icon="icons/map-icon-furniture-store_256_0_999999_none.png"/>
+            <button type="tag" label="Bücher" icon="icons/icomoon-book_256_0_999999_none.png"/>
+            <button type="tag" label="Second Hand" icon="icons/fa-hand-scissors-o_256_0_999999_none.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Bekleidung" icon="icons/ion-tshirt_256_0_999999_none.png"/>
+            <button type="tag" label="Schreibwaren" icon="icons/fa-pencil_256_0_999999_none.png"/>
+            <button type="tag" label="Kiosk" icon="icons/map-icon-liquor-store_256_0_999999_none.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Reinigung" icon="icons/map-icon-laundry_256_0_999999_none.png"/>
+            <button type="tag" label="Drogerie" icon="icons/map-icon-pharmacy_256_0_999999_none.png"/>
+            <button type="tag" label="Gemüsehändler" icon="icons/noun_113825_cc.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Supermarkt" icon="icons/map-icon-grocery-or-supermarket_256_0_999999_none.png"/>
+            <button type="tag" label="Zeitungen" icon="icons/icomoon-newspaper_256_0_999999_none.png"/>
+        </row>
+    </layout>
+    <layout name="office">
+        <row>
+            <button type="tag" label="Architekt" icon="icons/icomoon-home_256_0_999999_none.png"/>
+            <button type="tag" label="Immobilien" icon="icons/lsf-house_256_0_999999_none.png"/>
+            <button type="tag" label="Versicherung" icon="icons/map-icon-insurance-agency_256_0_999999_none.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Rechtsanwalt" icon="icons/map-icon-lawyer_256_0_999999_none.png"/>
+            <button type="tag" label="Reisebüro" icon="icons/map-icon-travel-agency_256_0_999999_none.png"/>
+            <button type="tag" label="Steuerberater" icon="icons/map-icon-accounting_256_0_999999_none.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Fahrschule" icon="icons/fa-car_256_0_999999_none.png"/>
+        </row>
+    </layout>
+</layouts>
