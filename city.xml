@@ -10,6 +10,10 @@
             <button type="page" label="Dinge" icon="icons/ion-location_256_0_00ff33_none.png" targetlayout="stuff"/>
             <button type="page" label="Büros" icon="icons/icomoon-office_256_0_00ff33_none.png" targetlayout="office"/>
         </row>
+        <row>
+            <button type="page" label="Essen &amp; Trinken" icon="icons/map-icon-restaurant_256_0_00ff33_none.png" targetlayout="food"/>
+            <button type="page" label="Gesundheit" icon="icons/map-icon-health_256_0_00ff33_none.png" targetlayout="health"/>
+        </row>
     </layout>
     <layout name="stuff">
         <row>
@@ -46,21 +50,36 @@
         <row>
             <button type="tag" label="Supermarkt" icon="icons/map-icon-grocery-or-supermarket_256_0_999999_none.png"/>
             <button type="tag" label="Zeitungen" icon="icons/icomoon-newspaper_256_0_999999_none.png"/>
+            <button type="tag" label="Florist" icon="icons/map-icon-florist_256_0_999999_none.png"/>
+        </row>
+    </layout>
+    <layout name="food">
+        <row>
+            <button type="page" label="zurück" icon="icons/ion-arrow-return-left_256_0_999999_none.png" targetlayout="root"/>
+            <button type="tag" label="Restaurant" icon="icons/map-icon-restaurant_256_0_999999_none.png"/>
         </row>
     </layout>
     <layout name="office">
         <row>
+            <button type="page" label="zurück" icon="icons/ion-arrow-return-left_256_0_999999_none.png" targetlayout="root"/>
             <button type="tag" label="Architekt" icon="icons/icomoon-home_256_0_999999_none.png"/>
             <button type="tag" label="Immobilien" icon="icons/lsf-house_256_0_999999_none.png"/>
-            <button type="tag" label="Versicherung" icon="icons/map-icon-insurance-agency_256_0_999999_none.png"/>
         </row>
         <row>
+            <button type="tag" label="Versicherung" icon="icons/map-icon-insurance-agency_256_0_999999_none.png"/>
             <button type="tag" label="Rechtsanwalt" icon="icons/map-icon-lawyer_256_0_999999_none.png"/>
             <button type="tag" label="Reisebüro" icon="icons/map-icon-travel-agency_256_0_999999_none.png"/>
-            <button type="tag" label="Steuerberater" icon="icons/map-icon-accounting_256_0_999999_none.png"/>
         </row>
         <row>
+            <button type="tag" label="Steuerberater" icon="icons/map-icon-accounting_256_0_999999_none.png"/>
             <button type="tag" label="Fahrschule" icon="icons/fa-car_256_0_999999_none.png"/>
+        </row>
+    </layout>
+    <layout name="health">
+        <row>
+            <button type="page" label="zurück" icon="icons/ion-arrow-return-left_256_0_999999_none.png" targetlayout="root"/>
+            <button type="tag" label="Kinderarzt" icon="icons/map-icon-health_256_0_999999_none.png"/>
+            <button type="tag" label="Thai Massage" icon="icons/map-icon-spa_256_0_999999_none.png"/>
         </row>
     </layout>
 </layouts>
